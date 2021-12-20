@@ -271,8 +271,8 @@
     </script>
   <script>var gridAxisStaggering = function() {
 /*DEMO*/
-click = click*3;
 console.log(click);
+click = click*3;
 anime({
   targets: '.staggering-axis-grid-demo .el',
   translateX: anime.stagger(click, {grid: [14, 16], from: 'center', axis: 'x'}),
