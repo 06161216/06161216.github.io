@@ -265,13 +265,13 @@
           .then(result => {
 //            msg.innerText = result['message'];
             // msg.innerText = JSON.stringify(result);
-            click = result['tap'];       
+            click = result['tap'];
+            console.log(click);   
           })
       });
     </script>
   <script>var gridAxisStaggering = function() {
 /*DEMO*/
-console.log(click);
 click = click*3;
 anime({
   targets: '.staggering-axis-grid-demo .el',
